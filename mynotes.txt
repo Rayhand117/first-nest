@@ -1,0 +1,5 @@
+npm i -g @nestjs/cli
+nest new first-nest
+# npm
+cd first-nest
+npm run start:dev
