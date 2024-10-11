@@ -3,3 +3,20 @@ nest new first-nest
 # npm
 cd first-nest
 npm run start:dev
+
+# janlup add collab & accept
+
+# automatically generate modules
+nest generate module episodes
+nest generate module topics
+nest generate module config
+# inspect app.module.ts for update
+
+# module can be decoupled and called into any other module.
+# controller to handle any incoming requests (entry point of nestjs app).
+nest generate controller episodes
+
+# generate service
+nest generate service episodes
+# shortcut
+nest g s config
